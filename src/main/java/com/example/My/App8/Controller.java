@@ -9,6 +9,11 @@ public class Controller {
     public String sayHello(){
         return "Hello Coders";
     }
+    
+    @GetMapping("/hi2")
+    public String sayHello2(){
+        return "Hello Coders 22 222 ";
+    }
 
     // https://www.google.com/search?q=sachin
     // http://localhost:9090/search?q=sachin
